@@ -23,7 +23,8 @@ import {
     Cpu,
     Search,
     Trophy,
-    Crown
+    Crown,
+    Bot
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -61,12 +62,12 @@ const Home = () => {
         {
             name: "Programming Languages",
             icon: Code2,
-            items: ["JavaScript", "PHP", "Java", "C++", "Python", "Rust", "Solidity", "Dart"]
+            items: ["JavaScript", "TypeScript", "Golang", "PHP", "Java", "C++", "Python", "Rust", "Solidity", "Dart"]
         },
         {
             name: "Frameworks and Technologies",
             icon: Layers,
-            items: ["NextJS", "ViteJS", "React Native", "Flutter", "Laravel", "Hardhat", "Flowise AI", "Prisma ORM"]
+            items: ["NextJS", "ViteJS", "React Native", "Flutter", "Fiber", "Express", "FastAPI", "Laravel", "Hardhat", "Flowise AI", "Prisma ORM"]
         },
         {
             name: "Databases",
@@ -82,6 +83,11 @@ const Home = () => {
             name: "Tools",
             icon: Rocket,
             items: ["Git", "GitHub", "Postman", "Docker", "Cisco Packet Tracer", "VMware", "VSCode", "CursorAI", "Remix IDE", "Solana Playground", "Android Studio"]
+        },
+        {
+            name: "AI & Automation",
+            icon: Bot,
+            items: ["LangChain", "AutoGPT", "Flowise AI", "Prompt Engineering", "RAG", "Fine-tuning", "TensorFlow", "PyTorch", "Hugging Face", "LangChain", "Pandas", "NumPy", "Jupyter", ]
         }
     ];
 
@@ -185,7 +191,7 @@ const Home = () => {
                             <div className="space-y-4">
                                 <Badge variant="secondary" className="mb-4">
                                     <Calendar className="w-3 h-3 mr-1" />
-                                    Available for internship
+                                    Available for work
                                 </Badge>
                                 <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 dark:text-white leading-tight">
                                     Hi, I'm{" "}
@@ -200,7 +206,7 @@ const Home = () => {
                                     Need a Web2 app? Done. Web3 smart contract? Easy. IoT device talking to the cloud? Built it yesterday. A robot that moves when you buy an NFT? On it.
                                 </p>
                                 <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                                    I'm like nasi campur —  a little bit of everything, somehow still delicious.
+                                    I'm like nasi kandar —  a little bit of everything, somehow still delicious.
                                 </p>
                             </div>
 
@@ -374,11 +380,10 @@ const Home = () => {
                 <div className="container mx-auto max-w-6xl">
                     <div className="text-center mb-12 lg:mb-16">
                         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-                            Featured Projects
+                            Projects
                         </h2>
                         <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-                            A collection of projects that showcase my skills and passion for creating
-                            meaningful digital experiences.
+                            Things I Made While Avoiding Assignments
                         </p>
                     </div>
 

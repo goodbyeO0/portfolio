@@ -77,7 +77,7 @@ function Project() {
             image: "/umHacks.png",
             githubUrl: "https://github.com/Atan0707/UMHackathon2025",
             liveUrl: "https://zakatchain.vercel.app/",
-            featured: true,
+            featured: false,
             completedDate: "2025",
             status: "Completed"
         },
@@ -115,10 +115,23 @@ function Project() {
             tech: ["NextJS", "ExpressJS", "TypeScript", "FlowiseAI"],
             image: "/godamlah.png",
             githubUrl: "https://github.com/goodbyeO0/Godamlah",
-            liveUrl: "https://github.com/goodbyeO0/Godamlah",
-            featured: false,
-            completedDate: "2024",
+            liveUrl: "https://devfolio.co/projects/telespectrom-737e",
+            featured: true,
+            completedDate: "2025",
             status: "Completed"
+        },
+        {
+            id: 8,
+            title: "Telespector (Final Year Project)",
+            description: "A comprehensive anti-scam platform for Telegram that uses AI to detect and protect users from scam groups through real-time analysis and education.",
+            category: ["Web Development", "AI", "Mobile Development"],
+            tech: ["React 19", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "Prisma ORM", "Tailwind CSS", "Groq API", "Telegram API"],
+            image: "/telespector.png",
+            githubUrl: "https://github.com/goodbyeO0/fyp_real",
+            liveUrl: "https://t.me/TeleSpecBot/teleSpector",
+            featured: true,
+            completedDate: "2025",
+            status: "Completed but not maintain"
         },
     ];
 
