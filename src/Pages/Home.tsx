@@ -275,13 +275,13 @@ const Home = () => {
                             About Me
                         </Badge>
                         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-                            Web3 Nerd, IoT Tinkerer,
+                            Tech Generalist, Serial Builder,
                             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent block sm:inline">
                                 {" "}Hackathon Warrior
                             </span>
                         </h2>
                         <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                            From Kuala Lumpur <span className="text-sm">🇲🇾</span> — Building the future, one smart contract and IoT device at a time
+                            From Kuala Lumpur <span className="text-sm">🇲🇾</span> — Whether it's cloud, code, or circuits, if it runs on logic (or caffeine), I'm in.
                         </p>
                     </div>
 
@@ -297,7 +297,7 @@ const Home = () => {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                                        A Computer Science grad who can't sit still when there's new tech to explore. From building websites to breaking into blockchain — I'm all about chasing the next big thing.
+                                        I got a Computer Science degree and immediately started collecting side quests: Web dev, blockchain, IoT, cloud, robotics... who needs free time anyway?
                                     </p>
                                 </CardContent>
                             </Card>
@@ -460,7 +460,7 @@ const Home = () => {
                                 Get In Touch
                             </Button>
                         </a>
-                        <a href="/resume.pdf" download="Izhan_Resume.pdf">
+                        <a href="/resume_real.pdf" download="Izhan_Resume.pdf">
                             <Button variant="outline" size="lg" className="w-full sm:w-auto">
                                 <Download className="w-5 h-5 mr-2" />
                                 Download Resume

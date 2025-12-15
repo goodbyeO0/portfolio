@@ -408,7 +408,7 @@ function Project() {
                             Wanna Build Cool Stuff Together?
                         </h2>
                         <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 sm:mb-12 max-w-2xl mx-auto">
-                            I'm always up for new adventures in tech. If you've got an idea, a project, or just want to nerd out                        I'm always up for new adventures in tech. If you've got an idea, a project, or just want to nerd out.
+                            I'm always up for new adventures in tech. If you've got an idea, a project, or just want to nerd out.
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
