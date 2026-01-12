@@ -211,7 +211,7 @@ const Home = () => {
                             </div>
 
                             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-                                <a href="/resume_real.pdf" download="Izhan_Resume.pdf">
+                                <a href="/Izhan_Hamdani_Resume.pdf" download="Izhan_Hamdani_Resume.pdf">
                                     <Button size="lg" className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
                                         <Download className="w-4 h-4 mr-2" />
                                         Download Resume
@@ -460,7 +460,7 @@ const Home = () => {
                                 Get In Touch
                             </Button>
                         </a>
-                        <a href="/resume_real.pdf" download="Izhan_Resume.pdf">
+                        <a href="/Izhan_Hamdani_Resume.pdf" download="Izhan_Hamdani_Resume.pdf">
                             <Button variant="outline" size="lg" className="w-full sm:w-auto">
                                 <Download className="w-5 h-5 mr-2" />
                                 Download Resume
